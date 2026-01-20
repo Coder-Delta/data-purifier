@@ -1,0 +1,30 @@
+{
+  "name": "data-cleanup-raas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon src/index.js",
+    "start":"node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.25.0",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "dayjs": "^1.11.19",
+    "fast-csv": "^5.0.5",
+    "fast-fuzzy": "^1.12.0",
+    "fs-extra": "^11.3.3",
+    "libphonenumber-js": "^1.12.34",
+    "lodash": "^4.17.21",
+    "validator": "^13.15.26",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.2",
+    "nodemon": "^3.1.11",
+    "prettier": "^3.8.0"
+  }
+}
